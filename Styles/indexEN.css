@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'Klill Light';
+    src: url('../Styles/Klill-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Brandon Grotesque';
+    src: url('../Styles/BrandonGrotesque.ttf') format('truetype');
+}
+
+body{
+    background-color: white;
+}
+h1{
+    color: black;
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    padding:0;
+    margin:0;
+    margin-top: 0;
+}
+.Images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    box-shadow: 10px 10px 5px grey;
+}
+h2{
+    background-color: white;
+    color: #AE954C;
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    background-color: black;
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+p{
+    background-color: #AE954C;
+    color: black;
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.parkmap{
+    color: black;
+    background-color: #AE954C;
+    font-size: 2.3em;
+    margin: auto;
+    width:50%;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    border: solid black 2px;
+}
+.sponsors{
+    color: black;
+    background-color:white;
+    /* background-color: #AE954C; */
+    font-size: 1.5em;
+    width: 35%;
+    /* margin: auto; */
+    border: solid black 2px;
+    margin-bottom: 25px;
+    float: left;
+}
+.donations{
+    color: black;
+    background-color: white;
+    /* background-color: #AE954C; */
+    font-size: 1.5em;
+    width: 35%;
+    /* margin: auto; */
+    border: solid black 2px;
+    float: right;
+}
+.Forcentering{
+    width:100%;
+}
+a, a:visited{
+    color: black;
+}
+.Centerable{
+    width: 100%;
+    background: white;
+}
+.backarrow{
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top:0;
+    border: none;
+}

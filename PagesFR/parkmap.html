@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <title>
+            Carte du parc
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="../manifest.json">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="El Caño Tour">
+        <link rel="apple-touch-icon" href="../Images/WebIcons/HighRes.png">
+        <meta name="description" content="Visite autoguidée du Parc Archéologique El Caño à Coclé, Panamá.">
+        <meta name="theme-color" content="#ae954c"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../StylesFR/parkmap.css" type="text/css">
+    </head>
+    <body>
+                <a href="index.html"><img class="backarrow" src="../Images/backarrow.png"></a>
+        <script src = "../serviceworker.js"></script>
+        <h1>Carte du parc</h1>
+        <img id="ParkMap" src="../Images/Park/ParkMapFrench.png" width="360" height="452" alt="Park Map" usemap="#park">
+        <map name="park">
+            <area shape="circle" coords="332,378,20" href="ticketbooth.html" alt = "stop 1">
+            <area shape="circle" coords="143,358,20" href="museummap.html">
+            <area shape="circle" coords="328, 170,20" href="Mound3.html">
+            <area shape="circle" coords="168,206,20" href="Rowofmonoliths.html">
+            <area shape="circle" coords="33,145,20" href="Riverrockcauseway.html">
+            <area shape="circle" coords="64,46,20" href="Sculptures.html">
+            <area shape="circle" coords="196, 101,20" href="Area1Excavation.html">
+            <area shape="circle" coords="313,263,20" href="InformationPanels.html">
+        </map>
+        <p class="listtitle">
+            Pages du parc
+        </p>
+        <table style="width:100%">
+            <tr>
+                <td>1. <a href="ticketbooth.html" style="text-decoration: none">Guichet de Vente de Billets</a></td>
+                <td>5. <a href="Riverrockcauseway.html" style="text-decoration: none">River Rock Causeway</a></td>
+            </tr>
+            <tr>
+                <td>2. <a href="museummap.html" style="text-decoration: none">Musée</a></td>
+                <td>6. <a href="Sculptures.html" style="text-decoration: none">Zone de Sculptures</a></td>
+            </tr>
+            <tr>
+                <td>3. <a href="Mound3.html" style="text-decoration: none">Monticule 3</a></td>
+                <td>7. <a href="Area1Excavation.html" style="text-decoration: none">Zone 1 Excavation</a></td>
+            </tr>
+            <tr>
+                <td>4. <a href="Rowofmonoliths.html" style="text-decoration: none">Rangée de Monolithes</a></td>
+                <td>8. <a href="InformationPanels.html" style="text-decoration: none">Panneaux d'Information</a></td>
+            </tr>
+        </table>
+    </body>
+</html>

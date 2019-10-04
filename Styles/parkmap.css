@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'Klill Light';
+    src: url('../Styles/Klill-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Brandon Grotesque';
+    src: url('../Styles/BrandonGrotesque.ttf') format('truetype');
+}
+
+body{
+    background-color:white;
+}
+h1{
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    background-color:white;
+    color: black;
+    font-size: 2.75em;
+    text-decoration: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-top: 10px;
+}
+.backarrow{
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    border: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+h2{
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    background-color: white;
+    color: #AE954C;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 50px;
+}
+p{
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+/* a:visited{
+    color: #e2b600;
+} */
+a{
+    color: black;
+}
+/* Images */
+img{
+    overflow: auto;
+}
+#ParkMap{
+    height: 452px;
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    margin-bottom: 50px;
+    padding: 0px;
+    overflow: auto;
+}
+.parkpages{
+    width: 70%;
+    margin: auto;
+}
+td{
+    font-family: 'Brandon Grotesque', 'Klill Light', 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.listtitle{
+    font-size: 1.5em;
+    text-align: center;
+}
