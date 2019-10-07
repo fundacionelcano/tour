@@ -1,6 +1,4 @@
 //DO NOT MOVE THIS FILE INTO THE SCRIPT FOLDER
-// Testing an update
-// alert('Please do not navigate away from this page until you get an alert letting you know it has loaded.');
 //Google Dev's code for registering a service worker
 if ('serviceWorker' in navigator) {
   try{
@@ -167,6 +165,7 @@ var urlsToCache = [
 
   // 'Scripts/',
   'https://fundacionelcano.github.io/tour/Scripts/install.js'
+  //Remember that the last file should not have a comma after it.
 ];
 
 self.addEventListener('install', function(event) {
